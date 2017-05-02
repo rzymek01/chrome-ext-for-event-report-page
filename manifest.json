@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Better JIRA event report page",
+  "version": "0.0.1",
+  "description": "Show all event attributes by default and hide 'User' column",
+  "author": "Maciej Rzymski",
+
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["*://*/*plugins/servlet/event/report"]
+  }]
+
+}

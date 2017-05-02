@@ -1,0 +1,12 @@
+.event-report-table-expander {
+    overflow: visible !important;
+    height: auto !important;
+}
+
+.event-report-table-expander-trigger {
+    display: none;
+}
+
+table.aui.event-report-table td:nth-child(3), table.aui.event-report-table th:nth-child(3) {
+    display: none;
+}
