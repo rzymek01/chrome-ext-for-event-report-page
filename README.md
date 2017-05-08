@@ -12,5 +12,6 @@ Drag&drop the folder into `chrome://extensions`.
 
 - no `User` column
 - no `Show more` trigger, all attributes are always visible
+- no sidebar on the left
  
 ![How does the event report page look after installation](doc/better-jira-event-report-page-1.jpg)
